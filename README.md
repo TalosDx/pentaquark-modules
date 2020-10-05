@@ -4,7 +4,7 @@ Penta Quark Modules allows modules to register automatically, everything you nee
 Depending on the class with which you inherit, modules can register themselves in ktor
 
 ## Usage
-Prepare
+### Prepare for use pq modules
 ```kotlin
 fun main(args : Array<String>) {
     embeddedServer(Netty, 8080) {
@@ -37,6 +37,7 @@ ktor {
 }
 ```
 
+### Example usage pq modules
 Example 1
 ```kotlin
 class ExampleController() : AutoPentaQuarkModule() {
