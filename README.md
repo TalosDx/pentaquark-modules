@@ -1,6 +1,6 @@
 # Penta Quark Modules
 [![Build Status](https://travis-ci.org/TalosDx/pentaquark-modules.svg?branch=master)](https://travis-ci.org/TalosDx/pentaquark-modules) 
-[![Coverage Status](https://coveralls.io/repos/github/TalosDx/pentaquark-modules/badge.svg?branch=master)](https://coveralls.io/github/TalosDx/pentaquark-modules?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/TalosDx/PentaQuark/badge.svg?branch=master)](https://coveralls.io/github/TalosDx/PentaQuark?branch=master)
 [![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 Penta Quark Modules allows modules to register automatically, everything you need to inherit from one of the PentaQuarkModule or AutoPentaQuarkModule classes
