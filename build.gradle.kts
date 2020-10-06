@@ -103,8 +103,8 @@ publishing {
             url = uri(if (version.toString().endsWith("SNAPSHOT")) snapshotsRepoUrl else releasesRepoUrl)
 
             credentials {
-                username = project.findProperty("sonatype.username").toString()
-                password = project.findProperty("sonatype.password").toString()
+                username = project.findProperty("SONATYPE_USERNAME").toString()
+                password = project.findProperty("SONATYPE_PASSWORD").toString()
             }
         }
     }
