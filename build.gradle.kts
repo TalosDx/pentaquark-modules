@@ -6,12 +6,13 @@ val kotestVersion = "4.0.6"
 
 plugins {
     java
-    application
     kotlin("jvm") version "1.3.72"
+    jacoco
+    id("com.github.kt3k.coveralls") version "2.10.2"
 }
 
 group = "dev.talosdx"
-version = "0.0.1"
+version = "1.0.0"
 
 repositories {
     mavenLocal()
@@ -48,9 +49,19 @@ tasks {
     withType<Test> {
         classpath += developmentOnly
         useJUnitPlatform()
+        finalizedBy(jacocoTestReport)
     }
 
     withType<JavaExec> {
         classpath += developmentOnly
+    }
+
+    jacocoTestReport {
+        dependsOn(test) // tests are required to run before generating the report
+
+        reports {
+            xml.isEnabled = true // coveralls plugin depends on xml format report
+            html.isEnabled = true
+        }
     }
 }
