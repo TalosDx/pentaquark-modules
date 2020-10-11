@@ -5,7 +5,6 @@ jdk:
   - openjdk8
 
 script:
-  - ./gradlew build
   - ./gradlew publishMavenJavaPublicationToMavenRepository
 
 after_success:
