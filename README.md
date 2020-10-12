@@ -8,6 +8,25 @@ Penta Quark Modules allows modules to register automatically, everything you nee
 Depending on the class with which you inherit, modules can register themselves in ktor
 
 ## Usage
+### Maven
+```xml
+<dependency>
+  <groupId>dev.talosdx</groupId>
+  <artifactId>pentaquark-modules</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+### Gradle
+#### Groovy
+```groovy
+implementation 'dev.talosdx:pentaquark-modules:1.0.0'
+```
+#### Kotlin DSL
+```kotlin
+implementation("dev.talosdx:pentaquark-modules:1.0.0")
+```
+
+
 ### Prepare for use pq modules
 ```kotlin
 fun main(args : Array<String>) {
