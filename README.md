@@ -1,4 +1,4 @@
-# Penta Quark Modules
+# Penta Quark Modules (not supported!)
 [![Build Status](https://travis-ci.org/TalosDx/pentaquark-modules.svg?branch=master)](https://travis-ci.org/TalosDx/pentaquark-modules) 
 [![Coverage Status](https://coveralls.io/repos/github/TalosDx/PentaQuark/badge.svg?branch=master)](https://coveralls.io/github/TalosDx/PentaQuark?branch=master)
 [![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
